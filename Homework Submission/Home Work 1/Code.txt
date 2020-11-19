@@ -1,0 +1,25 @@
+Department table:
+INSERT INTO departments VALUES 
+(20,'Marketing',201,1800),
+(50,'Shipping',124,1500),
+(60,'IT',103,1400),
+(80,'Sales',149,2500),
+(90,'Executive',100,1700),
+(110,'Accounting',205,1700),
+(190,'Contracting',null,1700);
+
+
+Location table:
+CREATE TABLE Locations(Location_id int(4) PRIMARY KEY,
+                       Street_Address VARCHAR(40),
+                       Postal_Code VARCHAR(13),
+                       City VARCHAR(30) NOT NULL,
+                       State_Province VARCHAR(25),
+                       Country_ID VARCHAR(2));
+
+
+INSERT INTO locations VALUES(1400,'20114 Jabberwocky Rd','26192','Southlake','Texas','US'),
+(1500,'2011 Interiors Blvd','99236','South San Francisco','California','US'),
+(1700,'2004 Charade Rd','98199','Seattle','Washington','US'), 
+(1800,'406 Bloor St. W.','ON M5S 1X8','Toronto','Ontario','CA'), 
+(2500,'Magdalen Centre-The Oxford Sc. Park','OX9 9ZB','OXford','Oxford','UK')
