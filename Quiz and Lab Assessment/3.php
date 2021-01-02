@@ -12,7 +12,7 @@ if ($connection == false) {
 }
 
 
-$sql = "Select";
+$sql = "SELECT ";
 $result = mysqli_query($connection, $sql);
 
 
